@@ -1,0 +1,14 @@
+administer sasha types:
+  title: 'Administer sasha types'
+  description: 'Maintain the types of sasha entity.'
+  restrict access: true
+access sasha overview:
+  title: 'Access sasha overview page'
+delete sasha:
+  title: Delete sasha
+create sasha:
+  title: Create sasha
+view sasha:
+  title: View sasha
+edit sasha:
+  title: Edit sasha

@@ -1,0 +1,15 @@
+sasha.example:
+  path: '/sasha/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\sasha\Controller\SashaController::build'
+  requirements:
+    _permission: 'access content'
+
+sasha.settings_form:
+  path: '/admin/config/system/sasha'
+  defaults:
+    _title: 'sasha settings'
+    _form: 'Drupal\sasha\Form\SettingsForm'
+  requirements:
+    _permission: 'administer sasha configuration'

@@ -1,0 +1,11 @@
+sasha.type_add:
+  route_name: entity.sasha_type.add_form
+  title: 'Add sasha type'
+  appears_on:
+    - entity.sasha_type.collection
+
+sasha.add_page:
+  route_name: entity.sasha.add_page
+  title: 'Add sasha'
+  appears_on:
+    - entity.sasha.collection

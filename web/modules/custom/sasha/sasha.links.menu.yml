@@ -1,0 +1,5 @@
+entity.sasha_type.collection:
+  title: 'sasha types'
+  parent: system.admin_structure
+  description: 'Manage and CRUD actions on sasha type.'
+  route_name: entity.sasha_type.collection

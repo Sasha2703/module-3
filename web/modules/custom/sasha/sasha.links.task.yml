@@ -1,0 +1,26 @@
+entity.sasha.view:
+  title: View
+  route_name: entity.sasha.canonical
+  base_route: entity.sasha.canonical
+entity.sasha.edit_form:
+  title: Edit
+  route_name: entity.sasha.edit_form
+  base_route: entity.sasha.canonical
+entity.sasha.delete_form:
+  title: Delete
+  route_name: entity.sasha.delete_form
+  base_route: entity.sasha.canonical
+  weight: 10
+entity.sasha.collection:
+  title: sasha
+  route_name: entity.sasha.collection
+  base_route: system.admin_content
+  weight: 10
+entity.sasha_type.edit_form:
+  title: Edit
+  route_name: entity.sasha_type.edit_form
+  base_route: entity.sasha_type.edit_form
+entity.sasha_type.collection:
+  title: List
+  route_name: entity.sasha_type.collection
+  base_route: entity.sasha_type.collection
