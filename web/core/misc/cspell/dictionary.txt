@@ -1563,7 +1563,6 @@ unconfigured
 undecorate
 undelayed
 undelegate
-undoable
 undraggable
 unextracted
 unfieldable

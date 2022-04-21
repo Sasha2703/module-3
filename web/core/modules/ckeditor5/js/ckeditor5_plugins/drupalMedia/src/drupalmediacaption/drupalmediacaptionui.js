@@ -1,7 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { Plugin, icons } from 'ckeditor5/src/core';
 import { ButtonView } from 'ckeditor5/src/ui';
-import { getMediaCaptionFromModelSelection } from './utils';
 
 /**
  * The caption media UI plugin.
@@ -54,9 +53,9 @@ export default class DrupalMediaCaptionUI extends Plugin {
         editor.execute('toggleMediaCaption', { focusCaptionOnShow: true });
 
         // If a caption is present, highlight it and scroll to the selection.
-        const modelCaptionElement = getMediaCaptionFromModelSelection(
-          editor.model.document.selection,
-        );
+        const modelCaptionElement = editor.model.document.selection
+          .getFirstPosition()
+          .findAncestor('caption');
         if (modelCaptionElement) {
           const figcaptionElement =
             editor.editing.mapper.toViewElement(modelCaptionElement);

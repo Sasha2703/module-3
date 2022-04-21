@@ -209,10 +209,7 @@ export default class DrupalElementStyleEditing extends Plugin {
         return style;
       })
       .filter((style) => {
-        if (
-          !style.isDefault &&
-          (!style.attributeName || !style.attributeValue)
-        ) {
+        if (!style.attributeName || !style.attributeValue) {
           console.warn(
             'drupalElementStyles options must include attributeName and attributeValue.',
           );

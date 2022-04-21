@@ -1,5 +1,4 @@
 /* eslint-disable import/no-extraneous-dependencies */
-// cSpell:words documentselection
 import { isWidget } from 'ckeditor5/src/widget';
 
 /**
@@ -33,26 +32,6 @@ export function isDrupalMediaWidget(viewElement) {
 }
 
 /**
- * Gets `drupalMedia` element from selection.
- *
- * @param {module:engine/model/selection~Selection|module:engine/model/documentselection~DocumentSelection} selection
- *   The current selection.
- * @returns {module:engine/model/element~Element|null}
- *   The `drupalMedia` element which could be either the current selected an
- *   ancestor of the selection. Returns null if the selection has no Drupal
- *   Media element.
- *
- * @internal
- */
-export function getClosestSelectedDrupalMediaElement(selection) {
-  const selectedElement = selection.getSelectedElement();
-
-  return isDrupalMedia(selectedElement)
-    ? selectedElement
-    : selection.getFirstPosition().findAncestor('drupalMedia');
-}
-
-/**
  * Gets selected Drupal Media widget if only Drupal Media is currently selected.
  *
  * @param {module:engine/model/selection~Selection} selection
@@ -62,20 +41,10 @@ export function getClosestSelectedDrupalMediaElement(selection) {
  *
  * @internal
  */
-export function getClosestSelectedDrupalMediaWidget(selection) {
+export function getSelectedDrupalMediaWidget(selection) {
   const viewElement = selection.getSelectedElement();
   if (viewElement && isDrupalMediaWidget(viewElement)) {
     return viewElement;
-  }
-
-  let parent = selection.getFirstPosition().parent;
-
-  while (parent) {
-    if (parent.is('element') && isDrupalMediaWidget(parent)) {
-      return parent;
-    }
-
-    parent = parent.parent;
   }
 
   return null;

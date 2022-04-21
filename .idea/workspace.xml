@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a69e43c-599f-4cf9-98d0-c88cb0b22768" name="Changes" comment="created entity">
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/consolidation/annotated-command/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/consolidation/annotated-command/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/alignment/alignment.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/alignment/alignment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/alignment/translations/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/alignment/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/alignment/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/alignment/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/basic-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/basic-styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/translations/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/block-quote/block-quote.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/block-quote/block-quote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/block-quote/translations/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/block-quote/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/ckeditor5-dll.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/ckeditor5-dll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/tk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/code-block.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/de-ch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/tk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/translations/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/editor-classic/editor-classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/editor-classic/editor-classic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/editor-decoupled/editor-decoupled.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/editor-decoupled/editor-decoupled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/essentials/essentials.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/essentials/essentials.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/heading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/horizontal-line/horizontal-line.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/horizontal-line/horizontal-line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/horizontal-line/translations/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/horizontal-line/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/horizontal-line/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/html-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/html-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/translations/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/indent/indent.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/indent/indent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/indent/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/indent/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/language.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/language.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/translations/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/translations/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/translations/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/translations/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/language/translations/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/de-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/de-ch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/en-gb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/jv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/kn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ku.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/si.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sr-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/tk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/ug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/translations/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/paste-from-office/paste-from-office.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/paste-from-office/paste-from-office.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/remove-format/remove-format.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/remove-format/remove-format.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/remove-format/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/remove-format/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/source-editing.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/source-editing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/translations/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/translations/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/translations/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/translations/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/translations/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/translations/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/translations/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/special-characters.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/special-characters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/translations/az.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/translations/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/uz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/checkboxradio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/controlgroup.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/controlgroup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/dialog.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/dialog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/draggable.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/draggable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_444444_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_555555_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777620_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777777_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_cc0000_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_ffffff_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/resizable.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/resizable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/themes/base/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/data-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/data-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/data-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/disable-selection-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/disable-selection-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/disable-selection-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/disable-selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/disable-selection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/focusable-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/focusable-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/focusable-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/focusable.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/focusable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form-reset-mixin-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form-reset-mixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form-reset-mixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/ie-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/ie-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/ie-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/ie.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/ie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/jquery-patch-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/jquery-patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/keycode-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/keycode-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/keycode-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/keycode.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/keycode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/labels-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/labels-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/labels-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/labels.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/labels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/plugin-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/plugin-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/plugin-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/position-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/position-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/position-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/position.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/position.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-active-element.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-active-element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-blur-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-blur-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-blur-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-blur.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/safe-blur.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/scroll-parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/scroll-parent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/tabbable-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/tabbable-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/tabbable-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/tabbable.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/tabbable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/unique-id-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/unique-id-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/unique-id-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/unique-id.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/unique-id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/version-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/version-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/version-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widget-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widget-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widget-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widget.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/button-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/button-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/button-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/checkboxradio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/controlgroup-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/controlgroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/controlgroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/dialog-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/dialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/draggable-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/draggable.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/draggable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/menu-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/menu-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/menu-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/mouse-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/mouse.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/mouse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/resizable-min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/resizable.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/jquery.ui/ui/widgets/resizable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/core.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/core.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Component/Render/FormattableMarkup.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Component/Render/FormattableMarkup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Cache/Context/CookiesCacheContext.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Cache/Context/CookiesCacheContext.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Composer/Composer.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Composer/Composer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Database/Driver/mysql/Schema.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Database/Driver/mysql/Schema.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Entity/EntityManagerInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Form/FormBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Form/FormBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Logger/LoggerChannel.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Logger/LoggerChannel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Render/Element/Checkboxes.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Render/Element/Checkboxes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Render/Element/Radios.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Render/Element/Radios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/TypedData/TranslatableInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/TypedData/TranslatableInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/misc/cspell/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/misc/cspell/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block/src/BlockForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/block/src/BlockForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block/tests/src/FunctionalJavascript/BlockAddTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block_content/tests/modules/block_content_test/config/install/block.block.foobargorilla.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/block_content/tests/modules/block_content_test/config/install/block.block.foobargorilla.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentCreationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentCreationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentListTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentListTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentPageViewTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentPageViewTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentSaveTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentSaveTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentTypeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/BlockContentTypeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/UnpublishedBlockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/block_content/tests/src/Functional/UnpublishedBlockTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.api.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.ckeditor5.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.ckeditor5.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/ckeditor5.services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/css/code-block.admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/css/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/icons/caret.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/icons/code-block.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/icons/warning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/ckeditor5.types.jsdoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/drupalImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/drupalImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/drupalMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/drupalMedia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.admin.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.admin.es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.filter.admin.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.filter.admin.es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.filter.admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.filter.admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/drupalimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/drupalimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/drupalimagealternativetext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/drupalimageediting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/drupalimageediting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/imagealternativetext/drupalimagealternativetextediting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/imagealternativetext/drupalimagealternativetextui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/imagealternativetext/ui/imagealternativetextformview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/imagealternativetext/ui/missingalternativetextview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalelementstyle/drupalelementstylecommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalelementstyle/drupalelementstylecommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalelementstyle/drupalelementstyleediting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalelementstyle/drupalelementstyleediting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupallinkmedia/drupallinkmediaediting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupallinkmedia/drupallinkmediaediting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptioncommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptioncommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptionui.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptionui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediaediting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediaediting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediageneralhtmlsupport.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediageneralhtmlsupport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediatoolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediatoolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/mediaimagetextalternative/mediaimagetextalternativecommand.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/mediaimagetextalternative/mediaimagetextalternativecommand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/mediaimagetextalternative/mediaimagetextalternativeediting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/mediaimagetextalternative/mediaimagetextalternativeediting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/mediaimagetextalternative/mediaimagetextalternativeui.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/mediaimagetextalternative/mediaimagetextalternativeui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/ui/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/ui/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ie11.filter.warnings.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ie11.filter.warnings.es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ie11.filter.warnings.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ie11.filter.warnings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ie11.user.warnings.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ie11.user.warnings.es6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ie11.user.warnings.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ie11.user.warnings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/CKEditor5StylesheetsMessage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/EventSubscriber/CKEditor5CacheTag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/HTMLRestrictions.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/HTMLRestrictions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor4To5Upgrade/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor4To5Upgrade/Core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor4To5UpgradePluginInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor4To5UpgradePluginInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor4To5UpgradePluginManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor4To5UpgradePluginManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor5Plugin/SourceEditing.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor5Plugin/SourceEditing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor5PluginManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor5PluginManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor5PluginManagerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor5PluginManagerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Editor/CKEditor5.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Editor/CKEditor5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Validation/Constraint/CKEditor5ElementConstraintValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Validation/Constraint/CKEditor5ElementConstraintValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Validation/Constraint/FundamentalCompatibilityConstraintValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Validation/Constraint/FundamentalCompatibilityConstraintValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Validation/Constraint/SourceEditingRedundantTagsConstraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Validation/Constraint/SourceEditingRedundantTagsConstraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Validation/Constraint/SourceEditingRedundantTagsConstraintValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/Validation/Constraint/SourceEditingRedundantTagsConstraintValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/SmartDefaultSettings.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/SmartDefaultSettings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/modules/ckeditor5_drupalelementstyle_test/ckeditor5_drupalelementstyle_test.info.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/modules/ckeditor5_drupalelementstyle_test/ckeditor5_drupalelementstyle_test.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/modules/ckeditor5_manual_decorator_test/ckeditor5_manual_decorator_test.ckeditor5.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/modules/ckeditor5_manual_decorator_test/ckeditor5_manual_decorator_test.info.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/modules/ckeditor5_plugin_elements_test/ckeditor5_plugin_elements_test.ckeditor5.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/modules/ckeditor5_plugin_elements_test/ckeditor5_plugin_elements_test.ckeditor5.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Functional/AddedStylesheetsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Functional/CKEditor5QuickEditLibraryTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/AdminUiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/AdminUiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/CKEditor5Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/CKEditor5Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/CKEditorStylesheetsWarningTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/ImageTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/ImageTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/MediaLibraryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/MediaLibraryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/MediaTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/MediaTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/SourceEditingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/SourceEditingTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/CKEditor4to5UpgradeCompletenessTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/CKEditor4to5UpgradeCompletenessTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/CKEditor5PluginManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/CKEditor5PluginManagerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/CKEditor5StylesheetsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/SmartDefaultSettingsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/SmartDefaultSettingsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/ValidatorsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/ValidatorsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Kernel/WildcardHtmlSupportTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Traits/PrivateMethodUnitTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Unit/CKEditor5Test.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Unit/CKEditor5Test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Unit/HTMLRestrictionsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Unit/HTMLRestrictionsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Unit/SmartDefaultSettingsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/editor/editor.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/editor/editor.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/editor/tests/src/FunctionalJavascript/EditorAdminTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/editor/tests/src/FunctionalJavascript/EditorAdminTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/field/tests/modules/field_test/config/schema/field_test.schema.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/field/tests/modules/field_test/config/schema/field_test.schema.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/field_ui/tests/src/Kernel/EntityDisplayTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/field_ui/tests/src/Kernel/EntityDisplayTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/help/tests/src/Functional/HelpTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/help/tests/src/Functional/HelpTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/jsonapi/tests/src/Functional/BlockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/jsonapi/tests/src/Functional/BlockTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/AjaxBlockTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/AjaxBlockTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/ContentPreviewToggleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/ContentPreviewToggleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderDisableInteractionsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderDisableInteractionsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderNestedFormUiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderNestedFormUiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_discovery/tests/themes/test_layout_theme/test_layout_theme.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_discovery/tests/themes/test_layout_theme/test_layout_theme.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media/src/MediaAccessControlHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/src/MediaAccessControlHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media/tests/src/FunctionalJavascript/CKEditorIntegrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/tests/src/FunctionalJavascript/CKEditorIntegrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media/tests/src/FunctionalJavascript/MediaStandardProfileTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/tests/src/FunctionalJavascript/MediaStandardProfileTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media_library/src/Plugin/Field/FieldWidget/MediaLibraryWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media_library/src/Plugin/Field/FieldWidget/MediaLibraryWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media_library/tests/src/FunctionalJavascript/EntityReferenceWidgetTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media_library/tests/src/FunctionalJavascript/EntityReferenceWidgetTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/migrate/src/Plugin/migrate/process/Callback.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/migrate/src/Plugin/migrate/process/Callback.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/migrate/tests/src/Unit/process/CallbackTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/migrate/tests/src/Unit/process/CallbackTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/migrate_drupal/tests/src/Kernel/StateFileExistsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/node/src/NodeAccessControlHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/node/src/NodeAccessControlHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/quickedit/tests/src/FunctionalJavascript/CKEditor5IntegrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/quickedit/tests/src/FunctionalJavascript/CKEditor5IntegrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/quickedit/tests/src/FunctionalJavascript/QuickEditIntegrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/quickedit/tests/src/FunctionalJavascript/QuickEditIntegrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/shortcut/shortcut.api.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/shortcut/shortcut.api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/migrations/system_site.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/migrations/system_site.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/ajax_test/src/Controller/AjaxTestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/modules/ajax_test/src/Controller/AjaxTestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/form_test/src/Form/FormTestDisabledElementsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/modules/form_test/src/Form/FormTestDisabledElementsForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/module_test/module_test.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/modules/module_test/module_test.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/off_canvas_test/js/resize-helper.es6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/off_canvas_test/js/resize-helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/off_canvas_test/off_canvas_test.libraries.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/off_canvas_test/off_canvas_test.module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/src/Functional/Form/FormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/src/Functional/Form/FormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/src/Functional/Module/DependencyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/src/Functional/Module/DependencyTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/src/Kernel/Extension/ModuleHandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/src/Kernel/Extension/ModuleHandlerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/src/Kernel/Migrate/d6/MigrateSystemConfigurationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/src/Kernel/Migrate/d6/MigrateSystemConfigurationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/src/Kernel/Migrate/d7/MigrateSystemConfigurationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/src/Kernel/Migrate/d7/MigrateSystemConfigurationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/src/Traits/OffCanvasTestTrait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_drupal_root/test_ckeditor_stylesheets_drupal_root.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_drupal_root/test_ckeditor_stylesheets_drupal_root.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_external/test_ckeditor_stylesheets_external.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_external/test_ckeditor_stylesheets_external.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_protocol_relative/test_ckeditor_stylesheets_protocol_relative.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_protocol_relative/test_ckeditor_stylesheets_protocol_relative.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_relative/test_ckeditor_stylesheets_relative.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_relative/test_ckeditor_stylesheets_relative.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_without_5/css/yokotsoko.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_ckeditor_stylesheets_without_5/test_ckeditor_stylesheets_without_5.info.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_subtheming_ckeditor_stylesheets_without_5/css/another.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/themes/test_subtheming_ckeditor_stylesheets_without_5/test_subtheming_ckeditor_stylesheets_without_5.info.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/Functional/FieldUITest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/Functional/FieldUITest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/Functional/HandlerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/Functional/HandlerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/Functional/PreviewTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/Functional/PreviewTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/FunctionalJavascript/DisplayTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/FunctionalJavascript/DisplayTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/FunctionalJavascript/PreviewTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/FunctionalJavascript/PreviewTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/FunctionalJavascript/ViewsListingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/FunctionalJavascript/ViewsListingTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/tests/themes/views_test_classy_subtheme/views_test_classy_subtheme.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/tests/themes/views_test_classy_subtheme/views_test_classy_subtheme.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/images/borscht-with-pork-ribs-umami.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/en/media/image.csv" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/en/media/image.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/en/node/recipe.csv" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/en/node/recipe.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/en/recipe_instructions/borscht-with-pork-ribs-umami.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/es/media/image.csv" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/es/media/image.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/es/node/recipe.csv" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/es/node/recipe.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/modules/demo_umami_content/default_content/languages/es/recipe_instructions/borscht-with-pork-ribs-umami.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/scripts/dev/commit-code-check.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/scripts/dev/commit-code-check.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/scripts/js/assets/ckeditor5Files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/scripts/js/assets/process/jqueryui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/scripts/js/assets/process/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/scripts/js/ckeditor5-types-documentation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/scripts/js/vendor-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/BuildTests/Composer/LegacyScriptsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/FunctionalJavascriptTests/Ajax/AjaxTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/FunctionalJavascriptTests/Ajax/AjaxTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/FunctionalJavascriptTests/JSWebAssert.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/FunctionalJavascriptTests/JSWebAssert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/FunctionalTests/Libraries/JqueryUiLibraryAssetsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/FunctionalTests/Libraries/JqueryUiLibraryAssetsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/Core/Asset/DeprecatedJqueryUiAssetsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/Core/Asset/DeprecatedJqueryUiAssetsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Cache/Context/CookieCacheContextTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Command/QuickStartTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Command/QuickStartTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Logger/LoggerChannelTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Logger/LoggerChannelTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/claro/css/components/jquery.ui/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/claro/css/components/jquery.ui/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/claro/css/components/jquery.ui/theme.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/claro/css/components/jquery.ui/theme.pcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_E6kw5r-LuijMi3I6K9xZYT_FVFvdWbf4EN1hgeE7uZM.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_E6kw5r-LuijMi3I6K9xZYT_FVFvdWbf4EN1hgeE7uZM.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_NLfwKORWOA0BsuRtTKJWMZDu1WTHQfzDkyYCjPOsDds.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_NLfwKORWOA0BsuRtTKJWMZDu1WTHQfzDkyYCjPOsDds.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_YvoL-dwWOrdSr2Lml9b5bxtD_RvxUkAaXlqUxP2AOYM.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_YvoL-dwWOrdSr2Lml9b5bxtD_RvxUkAaXlqUxP2AOYM.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css__YCKigWkXaEi1ZIF4UHKBuEGr2xWU9D9OIbHFDqPEzQ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css__YCKigWkXaEi1ZIF4UHKBuEGr2xWU9D9OIbHFDqPEzQ.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_brvdVsioMq2ed0_DK04K7xm1GhBywUaFlx1BNlyTasc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_brvdVsioMq2ed0_DK04K7xm1GhBywUaFlx1BNlyTasc.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_f10LFezqkPk55hCLbPxbgJnHbCE4QeiBjXqVBD0AiR0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_f10LFezqkPk55hCLbPxbgJnHbCE4QeiBjXqVBD0AiR0.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_i_HGMiO6YdIlMZLa3W3wmqL19SKHhEx4bVGL-BriCgQ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_i_HGMiO6YdIlMZLa3W3wmqL19SKHhEx4bVGL-BriCgQ.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_yTII0R1r73fk_otgUdg1I1wGpjetHJNbhIShmzxl0m0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_yTII0R1r73fk_otgUdg1I1wGpjetHJNbhIShmzxl0m0.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_yXYRyiojJDYv8Nw8VQQt9d9tsPycln_ZPPhA4Kp_NjQ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/css/css_yXYRyiojJDYv8Nw8VQQt9d9tsPycln_ZPPhA4Kp_NjQ.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_7uNQWZmI0N6Kk2KObNVPAXqvjkHbEqqRjHYjvNO9mhE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_7uNQWZmI0N6Kk2KObNVPAXqvjkHbEqqRjHYjvNO9mhE.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_DuLBwnHd6QiviP4F6MqY8F8V1YGKz5izFAW_nMbpm6A.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_DuLBwnHd6QiviP4F6MqY8F8V1YGKz5izFAW_nMbpm6A.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_HSznuU9JJjtZokIwNILzYVnDKov84W7Pem8y_1ptpqQ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_HSznuU9JJjtZokIwNILzYVnDKov84W7Pem8y_1ptpqQ.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_OFo_Al9RkpqG4bLs45J9bymIrMMwyohp_qPRc3Qdzio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_OFo_Al9RkpqG4bLs45J9bymIrMMwyohp_qPRc3Qdzio.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_gOlZryrOyBaPL9xzPPcnZVcwX3OsjwyxsOhHlvuIV8c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_gOlZryrOyBaPL9xzPPcnZVcwX3OsjwyxsOhHlvuIV8c.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_s7bQU1U3aH6vP_QMk2cf_S5wP52_C-Nm0IdJJPaBjHE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_s7bQU1U3aH6vP_QMk2cf_S5wP52_C-Nm0IdJJPaBjHE.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_vu6Eri86-2FpRPubqnQgRv5no3qg__wdq5Te3yHOTiU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/js/js_vu6Eri86-2FpRPubqnQgRv5no3qg__wdq5Te3yHOTiU.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--local-actions-bloc_Axk0adn77QZ14_Ld0EvFSsqF0/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--local-actions-bloc_Axk0adn77QZ14_Ld0EvFSsqF0/cDwZSZOz8nV9tHNfaGazG8jOlXsvQ3nWB5sc_d_Cj-g.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--local-tasks-block._e72BCBxyiAU8_PWN10DXOwEo5/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--local-tasks-block._e72BCBxyiAU8_PWN10DXOwEo5/HFIap8tURFor60-bvvF9EP3jENPok5jSsUXGNI9U4e4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--search-form-block._pplGhuQPTgRNOB5WhRf2S_40S/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--search-form-block._pplGhuQPTgRNOB5WhRf2S_40S/lb3s2WOEHOKkK8JuewmzvI3x-Mig1JOZZQeB3LKk-JM.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--system-branding-bl_7y5uUxGyaUP7M9GP9t_p-r_1a/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--system-branding-bl_7y5uUxGyaUP7M9GP9t_p-r_1a/yI_-dr_6x4i1VzvRlylt7kx3V4-_Km21CBKUS5lIV3U.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--system-menu-block._SU-TSeSRhYf3FSS4rG5Gaj6Nr/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--system-menu-block._SU-TSeSRhYf3FSS4rG5Gaj6Nr/oqxb8-thJNlEegIh9alP3YUxo8dgrT7VcGSxvTZqHho.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--system-messages-bl_xT_c56l4Jy7YTny_xcOeiDnQ8/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block--system-messages-bl_xT_c56l4Jy7YTny_xcOeiDnQ8/E1XZBswNrcYQyoMVffE0Sosg1hsLonGSefioy2kapi8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block.html.twig_6oJEjfcGq_0VFp1Ckg6ndP-Qa/-hMtKakrBf3ir-59cgU_Hinr4NgpLk2VVG1Ha80bzAI.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block.html.twig_6oJEjfcGq_0VFp1Ckg6ndP-Qa/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block.html.twig_H3i9n0Tb5CWLun560Y88AXs5V/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block.html.twig_H3i9n0Tb5CWLun560Y88AXs5V/vkQSHCmJ5PBu0KzzQWzAyX74DUJF0-FV7xp-0jutv10.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block.html.twig_Z1Rl2MkYxUlG6ra9D_7DvlN-Y/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_block.html.twig_Z1Rl2MkYxUlG6ra9D_7DvlN-Y/xI4xkS5dPlCPTorUj3e-nMetP3qUHnWIXygB1tT8i3c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_breadcrumb.html.twig_d4apkkftfuOM1K_84dyPEH66b/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_breadcrumb.html.twig_d4apkkftfuOM1K_84dyPEH66b/XbfMD1XOs550wHUhu2jST5NfyuXykalI3jB5PTnM9pA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_breadcrumb.html.twig_rREofwPswaWjnH36vrs79KVPK/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_breadcrumb.html.twig_rREofwPswaWjnH36vrs79KVPK/kVNyOjVufPbzSR-TUvfCsFxN8XvvXqsZWfmxVMhTnFU.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_confirm-form.html.twig_Js4fPLOosWPpKmeq8AJBmRQfp/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_confirm-form.html.twig_Js4fPLOosWPpKmeq8AJBmRQfp/VxV5j1xh_eaEFLzD-vcCsKkYVqgL74lcY2z_KW9fnUY.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_container.html.twig_HN_EU74unpL7t6eUgvn0q1kqC/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_container.html.twig_HN_EU74unpL7t6eUgvn0q1kqC/dvA6_Hy8QRS4BD-5cX1FgsH7YjkJCer4NGZxOibjBok.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_create-response-page.html_Jp5JSW6jyyoe_tIAveX1dtJpi/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_create-response-page.html_Jp5JSW6jyyoe_tIAveX1dtJpi/N6RcITHKuUIfOELheZSqxHBuixkKUGxw3HYAIUFOSCs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_details.html.twig_zVcYBLkJIP2iPzIX_Rklbtr0m/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_details.html.twig_zVcYBLkJIP2iPzIX_Rklbtr0m/Bh-kENj6SfQ3BNBTjJkHyLMKg7yensYhZptA28GtI98.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_field-multiple-value-form_isnnLh0pUlZUdYjlgkSi99TGD/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_field-multiple-value-form_isnnLh0pUlZUdYjlgkSi99TGD/4Q0X_gUCDmsHPBXDmH49QLdCme3Q5bE7VGu-WJqaOOY.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_file-upload-help.html.twi_-V_BYjLL44_cPBJeZqUvMzbAz/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_file-upload-help.html.twi_-V_BYjLL44_cPBJeZqUvMzbAz/ZNEPKoJiccwNAgtMwlTyxzCNd0uzUqKXnBrQiHkb_f4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form--search-block-form.h_oIsUx_s-co9iR-PnvSCIDkGGF/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form--search-block-form.h_oIsUx_s-co9iR-PnvSCIDkGGF/gUCNTf_iQGDONOW9bZyrOlIjzKalqDwyawL5jlBvCq8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form-element-label.html.t_2zSmdxsd4T4Ynm3-kezv5rKIT/-nCRPxYfn2SUig_4hlPVQ1Nmb1Ua6L-bUHjOC1DWiSQ.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form-element-label.html.t_2zSmdxsd4T4Ynm3-kezv5rKIT/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form-element-label.html.t_T_xtrsY8aWprWWbMRZRaVlvuu/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form-element-label.html.t_T_xtrsY8aWprWWbMRZRaVlvuu/4wB_XEHPdl9AhDP-OAtZdAY-W1i6qUKHbsmULMyhAuU.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form-element.html.twig_6Jh5oiP3tZNN8CsUNY2AtpLMW/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form-element.html.twig_6Jh5oiP3tZNN8CsUNY2AtpLMW/LbHCFRqlAeYdXRz-PXZdFbieZ814MXKk8b_rIJW3MW0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form-element.html.twig_ol2P_UeIpardzNACoQsEnpkLP/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form-element.html.twig_ol2P_UeIpardzNACoQsEnpkLP/MzeYZLycBgaSRbIJNq3BTPj9aDv7cpEqT4M5tBYOJx8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form.html.twig_k4Kl6bLbBuhMNE9s8jqSLE399/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_form.html.twig_k4Kl6bLbBuhMNE9s8jqSLE399/ni2C1cUx8G-d3WAnDqFwvgzT1MueUhZDJLnU_Lh9zDw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_html.html.twig_11firPY4XkVF8DHDcpPXo2n0O/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_html.html.twig_11firPY4XkVF8DHDcpPXo2n0O/fo8RQwcg3UADPaX00r38Jbqp5-z19A6xMzH48BGu3ZU.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_html.html.twig_u_gsYzYZuZjwJlppV6F5rlR3F/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_html.html.twig_u_gsYzYZuZjwJlppV6F5rlR3F/MtpoyPPuiF3NVKP3Wn1DYscvjOj6cAZXSsBV3XarNdQ.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_image-widget.html.twig_sljKJyEdoW1ASbSh5SZUCURPe/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_image-widget.html.twig_sljKJyEdoW1ASbSh5SZUCURPe/igFD3h6nZgkIHebi1uWCDqowgHbSkywF2Fa6_QrFiEo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_input.html.twig_ZCiVoE4bDKwjwV4uvCRTay3pv/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_input.html.twig_ZCiVoE4bDKwjwV4uvCRTay3pv/KtF3RSVatJKIEBfXMiH570pvf_mKmBmGtxVSy9GA1JI.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_item-list.html.twig_P5nHdLCgdi-Dij8P84b3PuTIL/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_item-list.html.twig_P5nHdLCgdi-Dij8P84b3PuTIL/1O6Htqk9gYe1Y6Mj0KCaHuIQvfPJbQlhvMUk_WsReYY.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_links.html.twig_MtWSWsJNrjGlKZWjJ0dB03Fgc/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_links.html.twig_MtWSWsJNrjGlKZWjJ0dB03Fgc/kJEU2TNVBb-BYlYK5YBAz7zDoyNRpjAAlaY86KjS_Vw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu--toolbar.html.twig_-E0TVn8wCBrzwsBJokD6IqcG0/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu--toolbar.html.twig_-E0TVn8wCBrzwsBJokD6IqcG0/tPuPX6OHTI-BgqP64VQHGzSjuAl29x_2a8egsgAbVq4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu-local-action.html.tw_OUwXrFBNWULHz0H4nEOgxUW0j/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu-local-action.html.tw_OUwXrFBNWULHz0H4nEOgxUW0j/cQXJgtCTAJorVjzeW3ZRolNkxZq6SzocMhrOi4V6ViA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu-local-task.html.twig_9MDpTIUyaSNkXkbEX8ZHj3fPl/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu-local-task.html.twig_9MDpTIUyaSNkXkbEX8ZHj3fPl/s-f8kpVXqy8YvXf7MLxKFhitw27DEc92kP2EcuBBja4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu-local-tasks.html.twi_za0v9p-BjBmBETfaZ6RmiR8cz/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu-local-tasks.html.twi_za0v9p-BjBmBETfaZ6RmiR8cz/AXKbjTrHEGuRfOUjJ4fDUdnCTnXqoePBxuPNU4v6_js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu.html.twig_qyH76eoOlyQMMy1-V2pH8p4uh/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_menu.html.twig_qyH76eoOlyQMMy1-V2pH8p4uh/Nhb9ZVm4sm_XV-14wp8qIDJhfBAtBxZyZUXAo0E-d_M.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_off-canvas-page-wrapper.h_5iNMAO4MtX4N0SKa3O8awCFq4/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_off-canvas-page-wrapper.h_5iNMAO4MtX4N0SKa3O8awCFq4/jeqSE_BblH6A8rQJiyy9y6urqhMikAAxGUOLbXqKBQY.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_page-title.html.twig_JVdPRWvr3Jl2kUnqGQGLXySGv/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_page-title.html.twig_JVdPRWvr3Jl2kUnqGQGLXySGv/IyOIpnHBMjDUBaDzCZYhHD9TpOrfE3Yq6bugdyrBNDQ.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_page-title.html.twig_s6UTCSv_zBrgweYqNtDq7fNuG/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_page-title.html.twig_s6UTCSv_zBrgweYqNtDq7fNuG/QQ1DC8UIitei3rtPFj7-EJXp_rI8o3KybTEYz65avsM.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_page.html.twig_100POH59ZZNUIb6_QmQika3wp/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_page.html.twig_100POH59ZZNUIb6_QmQika3wp/OuhpWG1U25fei7FTzhSJleJa2xNwMav4766yFVNdpyE.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_page.html.twig__b_UOYGzjN5thB2q-vTUdbnRy/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_page.html.twig__b_UOYGzjN5thB2q-vTUdbnRy/HJmyivbsMdff0WaAH8X0kwMfsMBVzjm4bWElEbv4xUc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_pager.html.twig_z0Mag4Wr9Pro3-x6dKbDV-Yix/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_pager.html.twig_z0Mag4Wr9Pro3-x6dKbDV-Yix/Kkhn3yVbbAT467lYY9MdcZ9CihPgYLK5z1EEqi6FZr0.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_region--header.html.twig_nFAcQOB1EKUipVyWM13SfqoVu/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_region--header.html.twig_nFAcQOB1EKUipVyWM13SfqoVu/BPtwgrUeHmik7ibHY_5Tb1OhQTCDriUXRs8QhXS3gnA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_region.html.twig_87cUbBypjEMRpTVYW2JLKl22T/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_region.html.twig_87cUbBypjEMRpTVYW2JLKl22T/_EWV-pWetogZxmAKzyfdVxgLr0HInxQyE__k8WsqXLQ.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_region.html.twig_bDD3i7Tu7ZAth8mn5HAjyZsbO/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_region.html.twig_bDD3i7Tu7ZAth8mn5HAjyZsbO/xg400CkrzihNVVxMjUztN5Ew24vl9O_dfyzmCG4URUc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_status-messages.html.twig_a6z8tgIlPu9z56eyxMOPj1SU7/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_status-messages.html.twig_a6z8tgIlPu9z56eyxMOPj1SU7/Bf_1ceQiyDj5p18pDkWPNj1bCtbe0p_S-2Bjqcl1g7k.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_status-messages.html.twig_cf3GvMsj2hOToBEmNxX-0uPBs/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_status-messages.html.twig_cf3GvMsj2hOToBEmNxX-0uPBs/BTH3GnfhkNRIDOr3VnrvqJRVGsgR7Ow8zPsQ0fX_3Cg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_system-modules-details.ht_W9XmLOPPRMsyx8TEWnqP6Rgse/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_system-modules-details.ht_W9XmLOPPRMsyx8TEWnqP6Rgse/uLU-yvcLZqWWYPL5XbSvvKOkim6uzN4oLSKi77tsjvg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_table.html.twig_CMAvDHh0ylwbvUWx2asuD_A7N/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_table.html.twig_CMAvDHh0ylwbvUWx2asuD_A7N/iQfUmvv1_kFtodXAqcej6DnPdEOLA7BJdmM-jNp3U28.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_textarea.html.twig_e9noa9BHEorttbEb5jg0PiDfp/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_textarea.html.twig_e9noa9BHEorttbEb5jg0PiDfp/Z-aanchWgjm_GJFU2OKDYPenA4gfONFYr4Vom-vV1Ks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_toolbar.html.twig_9iH72aArO98_y0HpAFRdC2sG6/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_toolbar.html.twig_9iH72aArO98_y0HpAFRdC2sG6/EY4yTmL0taBuiwy_xRaP9I9kQNUZNGPFk53v7NuV9Pk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_toolbar.html.twig_c2TwOACx63_hvBRE-fmYqHWvX/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/62614f9fbd5e0_toolbar.html.twig_c2TwOACx63_hvBRE-fmYqHWvX/gWU2eEL84V7Yf4aOPh_rSm5awD-SmhOnfg5t40fajz4.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/annotated-command" />
+      <path value="$PROJECT_DIR$/vendor/grasmash/yaml-expander" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/drupal/coder" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-feed" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/league/container" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/drush/drush" />
+      <path value="$PROJECT_DIR$/vendor/webflo/drupal-finder" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/path-util" />
+      <path value="$PROJECT_DIR$/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/vendor/symfony-cmf/routing" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/drupal/core-project-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/drupal/core-composer-scaffold" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/output-formatters" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/log" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/site-process" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/config" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/filter-via-dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/typo3/phar-stream-wrapper" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/site-alias" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/robo" />
+      <path value="$PROJECT_DIR$/vendor/consolidation/self-update" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/pear/console_getopt" />
+      <path value="$PROJECT_DIR$/vendor/pear/pear-core-minimal" />
+      <path value="$PROJECT_DIR$/vendor/pear/pear_exception" />
+      <path value="$PROJECT_DIR$/vendor/pear/archive_tar" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/grasmash/expander" />
+      <path value="$PROJECT_DIR$/vendor/stack/builder" />
+      <path value="$PROJECT_DIR$/vendor/slevomat/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sirbrillig/phpcs-variable-analysis" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/chi-teck/drupal-code-generator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/enlightn/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="283cYbR5u9uItxKoIwvCBmi3qxe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/sasha/module3/php-module-3/web/modules/custom/sasha/templates",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/modules/custom/sasha/templates" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a69e43c-599f-4cf9-98d0-c88cb0b22768" name="Changes" comment="" />
+      <created>1650448766976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650448766976</updated>
+      <workItem from="1650448785410" duration="26322000" />
+      <workItem from="1650542285069" duration="5519000" />
+    </task>
+    <task id="LOCAL-00001" summary="created entity">
+      <created>1650546391063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650546391064</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created entity">
+      <created>1650548041898</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650548041898</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add entity" />
+    <MESSAGE value="created entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="created entity" />
+  </component>
+</project>
