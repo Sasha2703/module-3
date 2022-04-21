@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/modules/custom/Module3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/modules/custom/Sasha" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/modules/custom/guestbook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/web/modules/custom/sasha" vcs="Git" />
   </component>
 </project>
