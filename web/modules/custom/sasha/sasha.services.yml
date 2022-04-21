@@ -1,6 +1,0 @@
-services:
-  sasha.event_subscriber:
-    class: Drupal\sasha\EventSubscriber\SashaSubscriber
-    arguments: ['@messenger']
-    tags:
-      - { name: event_subscriber }

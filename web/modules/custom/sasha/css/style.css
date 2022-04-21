@@ -1,0 +1,96 @@
+.response-entity-form {
+  max-width: 500px;
+  padding: 20px 10px;
+  background-color: #ece9e9;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.response-entity-form .field--name-status {
+  display: none;
+}
+
+.responses {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+.responses .response {
+  max-width: 1000px;
+  width: auto;
+  background-color: #ece9e9;
+  padding: 25px 15px;
+  border-radius: 10px;
+}
+.responses .response .personal-data .response-avatar {
+  float: left;
+  margin-right: 10px;
+}
+.responses .response .personal-data .response-name {
+  width: auto;
+  max-width: 800px;
+  margin-left: 53px;
+  text-align: left;
+}
+.responses .response .personal-data .response-created-time {
+  font-size: 12px;
+  width: 200px;
+  margin-left: 14px;
+  text-align: left;
+  color: #b5b5b5;
+}
+.responses .response .response-content {
+  display: flex;
+  flex-direction: column;
+}
+.responses .response .response-content .response-message {
+  margin: 15px auto;
+  max-width: 900px;
+}
+.responses .response .response-content .response-image {
+  max-width: 500px;
+  align-self: center;
+}
+.responses .response .contacts {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 50px;
+}
+@media (max-width: 1000px) {
+  .responses .response .contacts {
+    margin: 15px 0;
+  }
+}
+.responses .response .response-btn {
+  max-width: 500px;
+  margin: 10px 10px 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.responses .response .response-btn .btn {
+  padding: 0;
+  text-align: center;
+}
+.responses .response .response-btn .btn a {
+  color: #fff;
+  padding: 10px 20px;
+  background-color: #c4c4c4;
+  border-radius: 10px;
+}
+.responses .response .response-btn .btn a:hover {
+  background-color: #adadad;
+}
+
+.pager-nav .pagination .pager__item a {
+  border-width: 0;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 5px;
+  color: #ffffff;
+}
+.pager-nav .pagination .pager__item a, .pager-nav .pagination .is-active a {
+  background-color: #adadad;
+}
+.pager-nav .pagination .pager__item a:hover, .pager-nav .pagination .is-active a:hover {
+  background-color: #9b9b9b;
+}

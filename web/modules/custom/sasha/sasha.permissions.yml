@@ -1,14 +1,20 @@
-administer sasha types:
-  title: 'Administer sasha types'
-  description: 'Maintain the types of sasha entity.'
+add response entities:
+  title: 'Create new Response entities'
+
+administer response entities:
+  title: 'Administer Response entities'
+  description: 'Allow to access the administration form to configure Response entities.'
   restrict access: true
-access sasha overview:
-  title: 'Access sasha overview page'
-delete sasha:
-  title: Delete sasha
-create sasha:
-  title: Create sasha
-view sasha:
-  title: View sasha
-edit sasha:
-  title: Edit sasha
+
+delete response entities:
+  title: 'Delete Response entities'
+
+edit response entities:
+  title: 'Edit Response entities'
+
+view published response entities:
+  title: 'View published Response entities'
+
+view unpublished response entities:
+  title: 'View unpublished Response entities'
+

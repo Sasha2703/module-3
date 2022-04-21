@@ -1,5 +1,13 @@
-entity.sasha_type.collection:
-  title: 'sasha types'
+# Response menu items definition
+entity.response_entity.collection:
+  title: 'Response list'
+  route_name: entity.response_entity.collection
+  description: 'List Response entities'
   parent: system.admin_structure
-  description: 'Manage and CRUD actions on sasha type.'
-  route_name: entity.sasha_type.collection
+  weight: 100
+
+response_entity.admin.structure.settings:
+  title: 'Response settings'
+  description: 'Configure Response entities'
+  route_name: response_entity.settings
+  parent: system.admin_structure

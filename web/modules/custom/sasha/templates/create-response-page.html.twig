@@ -1,0 +1,35 @@
+{{ attach_library('sasha/responses_css') }}
+{{ form }}
+{% if responses %}
+<div class="responses">
+  {% for response in responses %}
+    <div class="response">
+      <div class="personal-data">
+        {% if response.avatar['#isset'] %}
+          <div class="response-avatar"><a href="{{ file_url(response.avatar['#uri']) }}" target="_blank">{{ response.avatar }}</a></div>
+        {% else %}
+          <div class="response-avatar"><a href="/modules/custom/sasha/images/image-not-found.png" target="_blank"><img alt="" title="avatar"  class="img-responsive" src="/modules/custom/sasha/images/image-not-found.png" width="50" height="50"></a></div>
+        {% endif %}
+        <h4 class="response-name">{{ response.name }}</h4>
+        <h4 class="response-created-time">{{ response.created |date('M-d-Y H:i:s') }}</h4>
+      </div>
+      <div class="response-content">
+        <h4 class="response-message">{{ response.text_response }}</h4>
+        {% if response.picture['#isset'] %}
+          <div class="response-image"><a href="{{ file_url(response.picture['#uri']) }}" target="_blank">{{ response.picture }}</a></div>
+        {% endif %}
+      </div>
+      <div class="contacts">
+        <h4>Contacts: </h4><h4 class="response-email">{{ response.email }}</h4>  <h4 class="response-phone">{{ response.phone }}</h4>
+      </div>
+    {% if user.hasPermission('administer nodes') %}
+      <div class="response-btn">
+        <div class="edit-cat btn"><a href="/admin/structure/response_entity/{{ response.id }}/edit" class="use-ajax edit-response-btn" data-dialog-type="modal">Edit</a></div>
+        <div class="delete-cat btn"><a href="/admin/structure/response_entity/{{ response.id }}/delete" class="use-ajax delete-response-btn" data-dialog-type="modal">Delete</a></div>
+      </div>
+    {% endif %}
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
+{{ pager }}
